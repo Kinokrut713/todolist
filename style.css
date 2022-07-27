@@ -33,7 +33,7 @@ input[type="text"]{
 }
   button {
       font-size: 1.5em;
-      color: #53BDFF;
+      color: #0f222a;
       background-color: #fff;
       outline: 0;
       border: none;
@@ -60,7 +60,7 @@ li{
 a{
   float: right;
   text-align: right;
-  color: #ff6161;
+  color: #fff;
   font-size: 1.2em;
   cursor: pointer;
 }
