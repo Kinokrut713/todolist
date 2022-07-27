@@ -1,29 +1,25 @@
 <!DOCTYPE html>
-<html lang="ru">
-<head>
+<html lang="ru" dir="ltr">
+  <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To-Do_List</title>
+    <title>Список дел</title>
     <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <div class="main">
-    <h1>To-Do-List</h1>
-    <from class="" action="index.html" method="post">
-      <button type="submit"><strong>ADD</strong></button>
-    </from>
-    <div class="taskBoard">
-      <ul>
-      <!--
-        <li><span class="delete">x</span><input="checkbox"><label>Vanilla JavaScript</label></li>
-        <li><span class="delete">x</span><input="checkbox"><label>Vue.js</label></li>
-        <li><span class="delete">x</span><input="checkbox"><label>React.js</label></li>
-        <li><span class="delete">x</span><input="checkbox"><label>Node.js</label></li>
-      -->
-      </ul>
-      <a id="clear">Clear</a>
+    <meta name="viewport" content="width-device-width, initial-scale=1">
+  </head>
+  <body>
+    <div class="main">
+      <h1>Список дел</h1>
+      <form class="" action="index.html" method="post">
+        <input type="text" placeholder="Новая задача" name="task">
+        <button type="submit"><strong>Добавить</strong></button>
+      </form>
+      <div class="tasksBoard">
+        <ul>
+        </ul>
+        <a id="clear">Clear</a>
+      </div>
     </div>
-  </div>
-  <script type="text/javascript" src=app.js></script>
-</body>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+
 </html>
